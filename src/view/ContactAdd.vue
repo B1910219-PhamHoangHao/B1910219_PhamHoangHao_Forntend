@@ -23,7 +23,7 @@ export default {
                 await ContactService.create(data);
                 this.message = "Thêm liên hệ thành công."
             } catch (error) {
-                // console.log(error);
+                console.log(error);
             }
         }
     },
